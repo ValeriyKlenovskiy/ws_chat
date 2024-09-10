@@ -1,7 +1,7 @@
 from typing import List
 
 from fastapi.websockets import WebSocket
-from service import ChatService
+from app.chat.service import ChatService
 
 
 class ConnectionManager:

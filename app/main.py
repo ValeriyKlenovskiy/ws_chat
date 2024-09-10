@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.chat_router import router as chat_router
-from page_router import router as page_router
+from app.chat.chat_router import router as chat_router
+from app.chat.page_router import router as page_router
 
 app = FastAPI()
 
